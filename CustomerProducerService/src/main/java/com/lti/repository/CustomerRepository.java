@@ -8,4 +8,6 @@ import com.lti.model.Customer;
 @Repository
 public interface CustomerRepository extends JpaRepository<Customer, Integer> {
 
+	
+
 }

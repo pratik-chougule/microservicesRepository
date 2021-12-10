@@ -59,4 +59,13 @@ public class CustomerService {
 		
 	}
 
+
+	public CustomerService(CustomerRepository customerRepository) {
+		super();
+		this.customerRepository = customerRepository;
+	}
+	
+	
+	
+
 }
